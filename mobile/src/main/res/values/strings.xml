@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">androidthings-iot-robotarm</string>
+    <string name="iot_robot_arm_controller">IoT Robot Arm Controller</string>
+
+    <!-- Robot Arm Controls -->
+    <string name="control_reverse">Reverse</string>
+    <string name="control_stop">Stop</string>
+    <string name="control_forward">Forward</string>
+
+    <!-- Robot Arm Control Descriptions -->
+    <string name="robot_arm_rotate">Rotate</string>
+    <string name="robot_arm_elevate">Elevate</string>
+    <string name="robot_arm_scope">Scope</string>
+    <string name="robot_arm_articulate">Articulate</string>
+    <string name="robot_arm_claw">Claw</string>
+</resources>

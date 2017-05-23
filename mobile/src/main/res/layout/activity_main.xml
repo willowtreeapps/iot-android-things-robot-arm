@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.willowtreeapps.androidthings_iot_robotarm.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/robot_arm_rotate"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/buttonReverseRotate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_reverse"
+            android:textColor="@color/colorButtonInactiveText"/>
+
+        <Button
+            android:id="@+id/buttonStopRotate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundActive"
+            android:text="@string/control_stop"
+            android:textColor="@color/colorButtonActiveText"/>
+
+        <Button
+            android:id="@+id/buttonForwardRotate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_forward"
+            android:textColor="@color/colorButtonInactiveText"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/robot_arm_articulate"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/buttonReverseArticulate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_reverse"
+            android:textColor="@color/colorButtonInactiveText"/>
+
+        <Button
+            android:id="@+id/buttonStopArticulate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundActive"
+            android:text="@string/control_stop"
+            android:textColor="@color/colorButtonActiveText"/>
+
+        <Button
+            android:id="@+id/buttonForwardArticulate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_forward"
+            android:textColor="@color/colorButtonInactiveText"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/robot_arm_elevate"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/buttonReverseElevate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_reverse"
+            android:textColor="@color/colorButtonInactiveText"/>
+
+        <Button
+            android:id="@+id/buttonStopElevate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundActive"
+            android:text="@string/control_stop"
+            android:textColor="@color/colorButtonActiveText"/>
+
+        <Button
+            android:id="@+id/buttonForwardElevate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_forward"
+            android:textColor="@color/colorButtonInactiveText"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/robot_arm_scope"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/buttonReverseScope"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_reverse"
+            android:textColor="@color/colorButtonInactiveText"/>
+
+        <Button
+            android:id="@+id/buttonStopScope"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundActive"
+            android:text="@string/control_stop"
+            android:textColor="@color/colorButtonActiveText"/>
+
+        <Button
+            android:id="@+id/buttonForwardScope"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_forward"
+            android:textColor="@color/colorButtonInactiveText"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/robot_arm_claw"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/buttonReverseClaw"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_reverse"
+            android:textColor="@color/colorButtonInactiveText"/>
+
+        <Button
+            android:id="@+id/buttonStopClaw"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundActive"
+            android:text="@string/control_stop"
+            android:textColor="@color/colorButtonActiveText"/>
+
+        <Button
+            android:id="@+id/buttonForwardClaw"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorButtonBackgroundInactive"
+            android:text="@string/control_forward"
+            android:textColor="@color/colorButtonInactiveText"/>
+    </LinearLayout>
+</LinearLayout>
