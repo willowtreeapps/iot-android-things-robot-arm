@@ -3,7 +3,7 @@ package com.willowtreeapps.androidthings_iot_robotarm
 import android.util.Log
 import com.google.android.things.pio.Gpio
 import com.google.android.things.pio.PeripheralManagerService
-import com.willowtreeapps.commonlib.*
+import com.willowtreeapps.firebase.*
 import java.io.IOException
 
 class RobotGpio {

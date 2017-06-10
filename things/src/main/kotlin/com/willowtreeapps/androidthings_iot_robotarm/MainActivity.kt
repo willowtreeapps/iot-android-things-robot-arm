@@ -3,9 +3,9 @@ package com.willowtreeapps.androidthings_iot_robotarm
 import android.app.Activity
 import android.os.Bundle
 import com.google.firebase.database.DataSnapshot
-import com.willowtreeapps.commonlib.FirebaseCommon
-import com.willowtreeapps.commonlib.RobotArmBaseCallbacks
-import com.willowtreeapps.commonlib.buildRobotState
+import com.willowtreeapps.firebase.FirebaseCommon
+import com.willowtreeapps.firebase.RobotArmBaseCallbacks
+import com.willowtreeapps.firebase.buildRobotState
 
 class MainActivity : Activity() {
 

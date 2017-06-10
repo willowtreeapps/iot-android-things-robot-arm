@@ -1,9 +1,9 @@
-package com.willowtreeapps.commonlib
+package com.willowtreeapps.firebase
 
 import android.util.Log
 import com.google.firebase.database.*
-import com.willowtreeapps.commonlib.extensions.onBaseValueChange
-import com.willowtreeapps.commonlib.extensions.onComponentValueChange
+import com.willowtreeapps.firebase.extensions.onBaseValueChange
+import com.willowtreeapps.firebase.extensions.onComponentValueChange
 
 class FirebaseCommon {
 

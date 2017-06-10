@@ -1,4 +1,4 @@
-package com.willowtreeapps.commonlib
+package com.willowtreeapps.firebase
 
 import com.google.firebase.database.DataSnapshot
 

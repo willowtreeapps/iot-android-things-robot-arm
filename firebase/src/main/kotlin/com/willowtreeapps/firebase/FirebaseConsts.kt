@@ -1,4 +1,4 @@
-package com.willowtreeapps.commonlib
+package com.willowtreeapps.firebase
 
 val STATE_FORWARD = "fwd"
 val STATE_REVERSE = "rev"

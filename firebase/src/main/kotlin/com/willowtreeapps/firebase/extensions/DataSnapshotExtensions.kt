@@ -1,8 +1,8 @@
-package com.willowtreeapps.commonlib.extensions
+package com.willowtreeapps.firebase.extensions
 
 import com.google.firebase.database.DataSnapshot
-import com.willowtreeapps.commonlib.RobotArmBaseCallbacks
-import com.willowtreeapps.commonlib.RobotArmComponentCallbacks
+import com.willowtreeapps.firebase.RobotArmBaseCallbacks
+import com.willowtreeapps.firebase.RobotArmComponentCallbacks
 
 fun DataSnapshot.onBaseValueChange(baseCallbacks: RobotArmBaseCallbacks?) {
     baseCallbacks?.robotArmValueChange(this)

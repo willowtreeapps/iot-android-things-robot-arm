@@ -1,7 +1,7 @@
 package com.willowtreeapps.androidthings_iot_robotarm
 
 import android.widget.Button
-import com.willowtreeapps.commonlib.*
+import com.willowtreeapps.firebase.*
 
 val BUTTON_FORWARD_ROTATE = KEY_ROTATE + "_" + STATE_FORWARD
 val BUTTON_FORWARD_ELEVATE = KEY_ELEVATE + "_" + STATE_FORWARD
