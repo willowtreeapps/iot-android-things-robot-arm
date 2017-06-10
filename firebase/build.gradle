@@ -30,7 +30,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.4.0'
 
     compile("org.jetbrains.kotlin:kotlin-stdlib:$VERSION_KOTLIN",
             "org.jetbrains.kotlin:kotlin-annotation-processing:$VERSION_KOTLIN")
@@ -41,8 +41,6 @@ dependencies {
             "com.google.firebase:firebase-crash:$VERSION_FIREBASE")
 
     testCompile 'junit:junit:4.12'
-    testCompile("org.jetbrains.kotlin:kotlin-stdlib:$VERSION_KOTLIN",
-            "org.jetbrains.kotlin:kotlin-annotation-processing:$VERSION_KOTLIN")
     testCompile 'com.willowtreeapps.assertk:assertk:1.0-SNAPSHOT'
     testCompile 'org.mockito:mockito-core:2.8.9'
 }

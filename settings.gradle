@@ -1,1 +1,1 @@
-include ':mobile', ':things', ':commonlib'
+include ':mobile', ':things', ':firebase'
