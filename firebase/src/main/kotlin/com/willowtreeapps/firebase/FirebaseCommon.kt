@@ -61,12 +61,12 @@ class FirebaseCommon {
         robotArmStateClaw.setValue(state)
     }
 
-    fun resetComponentStates() {
-        this.robotArmStateArticulate.setValue(STATE_STOP)
-        this.robotArmStateElevate.setValue(STATE_STOP)
-        this.robotArmStateClaw.setValue(STATE_STOP)
-        this.robotArmStateRotate.setValue(STATE_STOP)
-        this.robotArmStateScope.setValue(STATE_STOP)
+    private fun resetComponentStates() {
+        setRotateValue(STATE_STOP)
+        setElevateValue(STATE_STOP)
+        setArticulateValue(STATE_STOP)
+        setScopeValue(STATE_STOP)
+        setClawValue(STATE_STOP)
     }
 
     private fun initAllRefs() {

@@ -49,7 +49,6 @@ class RobotGpio {
 
     fun closeAll() {
         // Close the Gpio pins
-        Log.i(TAG, "Closing LED GPIO pin")
         try {
             gpioMap.forEach({ it.value?.close() })
         } catch (e: IOException) {
