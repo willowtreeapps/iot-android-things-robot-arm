@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ControlTitleText">
+        <item name="android:background">@color/colorControlTitleBackground</item>
+        <item name="android:textColor">@color/white_100</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
 </resources>

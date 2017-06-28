@@ -25,7 +25,7 @@ fun getButton(buttonMap: Map<String, Button>, armComponent: String?, state: Stri
     return buttonMap["${armComponent.orEmpty()}_${state.orEmpty()}"]
 }
 
-fun Button.setButtonStyles(buttonMap: Map<String, Button>) {
+fun Button.setButtonStates(buttonMap: Map<String, Button>) {
     setActiveButtonStyle()
     getOpposingButtons(buttonMap).let {
         it.first?.setInactiveButtonStyle()

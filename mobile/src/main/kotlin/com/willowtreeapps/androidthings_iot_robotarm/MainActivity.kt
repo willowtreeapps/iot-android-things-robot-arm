@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(view: View) {
         if (view is Button) {
-            view.setButtonStyles(buttonMap)
+            view.setButtonStates(buttonMap)
             when (view.getButtonType(buttonMap)) {
                 KEY_ROTATE -> firebaseCommon.setRotateValue(view.getButtonState(buttonMap))
                 KEY_ELEVATE -> firebaseCommon.setElevateValue(view.getButtonState(buttonMap))
@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private val robotArmComponentCallbacks = object : RobotArmComponentCallbacks {
         override fun componentValueChange(which: String?, state: String?) {
-            getButton(buttonMap, which, state)?.setButtonStyles(buttonMap)
+            getButton(buttonMap, which, state)?.setButtonStates(buttonMap)
         }
     }
 }

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,11 +7,10 @@
     tools:context="com.willowtreeapps.androidthings_iot_robotarm.MainActivity">
 
     <TextView
+        style="@style/ControlTitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/robot_arm_rotate"/>
+        android:text="@string/robot_arm_rotate" />
 
     <LinearLayout
         style="?android:attr/buttonBarButtonStyle"
@@ -28,8 +26,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_reverse"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_left"
+            android:textColor="@color/colorButtonInactiveText" />
 
         <Button
             android:id="@+id/buttonStopRotate"
@@ -39,7 +37,7 @@
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundActive"
             android:text="@string/control_stop"
-            android:textColor="@color/colorButtonActiveText"/>
+            android:textColor="@color/colorButtonActiveText" />
 
         <Button
             android:id="@+id/buttonForwardRotate"
@@ -48,16 +46,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_forward"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_right"
+            android:textColor="@color/colorButtonInactiveText" />
     </LinearLayout>
 
     <TextView
+        style="@style/ControlTitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/robot_arm_articulate"/>
+        android:text="@string/robot_arm_articulate" />
 
     <LinearLayout
         style="?android:attr/buttonBarButtonStyle"
@@ -73,8 +70,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_reverse"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_down"
+            android:textColor="@color/colorButtonInactiveText" />
 
         <Button
             android:id="@+id/buttonStopArticulate"
@@ -84,7 +81,7 @@
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundActive"
             android:text="@string/control_stop"
-            android:textColor="@color/colorButtonActiveText"/>
+            android:textColor="@color/colorButtonActiveText" />
 
         <Button
             android:id="@+id/buttonForwardArticulate"
@@ -93,16 +90,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_forward"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_up"
+            android:textColor="@color/colorButtonInactiveText" />
     </LinearLayout>
 
     <TextView
+        style="@style/ControlTitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/robot_arm_elevate"/>
+        android:text="@string/robot_arm_elevate" />
 
     <LinearLayout
         style="?android:attr/buttonBarButtonStyle"
@@ -118,8 +114,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_reverse"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_down"
+            android:textColor="@color/colorButtonInactiveText" />
 
         <Button
             android:id="@+id/buttonStopElevate"
@@ -129,7 +125,7 @@
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundActive"
             android:text="@string/control_stop"
-            android:textColor="@color/colorButtonActiveText"/>
+            android:textColor="@color/colorButtonActiveText" />
 
         <Button
             android:id="@+id/buttonForwardElevate"
@@ -138,16 +134,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_forward"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_up"
+            android:textColor="@color/colorButtonInactiveText" />
     </LinearLayout>
 
     <TextView
+        style="@style/ControlTitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/robot_arm_scope"/>
+        android:text="@string/robot_arm_scope" />
 
     <LinearLayout
         style="?android:attr/buttonBarButtonStyle"
@@ -163,8 +158,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_reverse"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_in"
+            android:textColor="@color/colorButtonInactiveText" />
 
         <Button
             android:id="@+id/buttonStopScope"
@@ -174,7 +169,7 @@
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundActive"
             android:text="@string/control_stop"
-            android:textColor="@color/colorButtonActiveText"/>
+            android:textColor="@color/colorButtonActiveText" />
 
         <Button
             android:id="@+id/buttonForwardScope"
@@ -183,16 +178,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_forward"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_out"
+            android:textColor="@color/colorButtonInactiveText" />
     </LinearLayout>
 
     <TextView
+        style="@style/ControlTitleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/robot_arm_claw"/>
+        android:text="@string/robot_arm_claw" />
 
     <LinearLayout
         style="?android:attr/buttonBarButtonStyle"
@@ -208,8 +202,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_reverse"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_close"
+            android:textColor="@color/colorButtonInactiveText" />
 
         <Button
             android:id="@+id/buttonStopClaw"
@@ -219,7 +213,7 @@
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundActive"
             android:text="@string/control_stop"
-            android:textColor="@color/colorButtonActiveText"/>
+            android:textColor="@color/colorButtonActiveText" />
 
         <Button
             android:id="@+id/buttonForwardClaw"
@@ -228,7 +222,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@color/colorButtonBackgroundInactive"
-            android:text="@string/control_forward"
-            android:textColor="@color/colorButtonInactiveText"/>
+            android:text="@string/control_open"
+            android:textColor="@color/colorButtonInactiveText" />
     </LinearLayout>
 </LinearLayout>

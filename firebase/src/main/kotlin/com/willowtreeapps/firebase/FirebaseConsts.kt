@@ -1,8 +1,8 @@
 package com.willowtreeapps.firebase
 
-val STATE_FORWARD = "fwd"
-val STATE_REVERSE = "rev"
-val STATE_STOP = "off"
+val STATE_FORWARD = "1"
+val STATE_REVERSE = "-1"
+val STATE_STOP = "0"
 
 val KEY_ARTICULATE = "articulate"
 val KEY_CLAW = "claw"

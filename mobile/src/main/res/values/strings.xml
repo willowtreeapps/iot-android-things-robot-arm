@@ -3,9 +3,17 @@
     <string name="iot_robot_arm_controller">IoT Robot Arm Controller</string>
 
     <!-- Robot Arm Controls -->
-    <string name="control_reverse">Reverse</string>
     <string name="control_stop">Stop</string>
     <string name="control_forward">Forward</string>
+    <string name="control_reverse">Reverse</string>
+    <string name="control_left">Left</string>
+    <string name="control_right">Right</string>
+    <string name="control_up">Up</string>
+    <string name="control_down">Down</string>
+    <string name="control_in">In</string>
+    <string name="control_out">Out</string>
+    <string name="control_open">Open</string>
+    <string name="control_close">Close</string>
 
     <!-- Robot Arm Control Descriptions -->
     <string name="robot_arm_rotate">Rotate</string>
