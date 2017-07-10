@@ -22,9 +22,9 @@ value event changes
 This module acts as the common Firebase link between the mobile and things modules.
 
 # About WillowTree!
-![WillowTree Logo](https://github.com/willowtreeapps/spruce-android/blob/master/imgs/willowtree_logo.png)
+![WillowTree Logo](https://github.com/willowtreeapps/iot-android-things-robot-arm/blob/master/imgs/willowtree_logo.png)
 
 We build apps, responsive sites, bots—any digital product that lives on a screen—for the world’s leading companies. Our elite teams challenge themselves to build extraordinary experiences by bridging the latest strategy and design thinking with enterprise-grade software development.
 
-Interested in working on more unique projects like Spruce? Check out our [careers page](http://willowtreeapps.com/careers?utm_campaign=spruce-gh).
+Interested in working on more unique projects like Android Things IoT Robot Arm? Check out our [careers page](http://willowtreeapps.com/careers?utm_campaign=spruce-gh).
 
